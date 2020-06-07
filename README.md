@@ -110,7 +110,7 @@ Maintenant que vous avez la clé WEP, configurez la dans Wireshark afin de déch
 
 > **_Question :_** Combien de temps avez-vous attendu pour obtenir la clé WEP ?
 >
-> **_Réponse :_** Un délai extrêmement court (< 2 secondes).
+> **_Réponse :_** Un délai quasiment instantanée (très court).
 
 ---
 > **_Montrer une capture d'écran de l'obtention de la clé WEP_**
