@@ -57,7 +57,12 @@ Nous savons que la cible s’est hébergée à l’hôtel « Black Rain » et qu
 ---
 > **_Question :_** Quel autres endroits la cible a-t-elle probablement visités ?
 >
-> **_Réponse :_** Via le filtre (wlan.fc.subtype == 4) && (wlan.ta == fc:f1:36:22:49:74) on découvre que la cible s'est approché au réseaux suivant
+> **_Réponse :_** Via le filtre (wlan.fc.subtype == 4) && (wlan.ta == fc:f1:36:22:49:74) on découvre que la cible s'est approché au réseaux suivant :
+  - Starbucks
+  - Fleur de Pains
+  - BlackRainHotel Free Wifi
+  - GVA Airport WiFi
+  - MIGROS Free WiFi
 
 ![](./images/SSID_cible.png)
 
