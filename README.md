@@ -153,6 +153,10 @@ Nous utiliserons Wireshark pour trouver l’authentification WPA contenue dans l
 >
 > **_Capture ici_**
 
+![](./images/Nonce1.png)
+
+![](./images/Nonce2.png)
+
 ---
 
 
