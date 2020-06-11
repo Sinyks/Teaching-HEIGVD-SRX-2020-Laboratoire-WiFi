@@ -177,12 +177,14 @@ aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 
 > **_Question :_** Combien de temps avez-vous attendu pour obtenir la passphrase WPA ?
 >
-> **_Réponse :_**
+> **_Réponse :_** UUn délai très court (2 secondes)
 
 ---
 > **_Montrer une capture d'écran de l'obtention de la passphrase WPA_**
 >
 > **_Capture ici_**
+
+![](./images/aireCrackWPA.png)
 
 ---
 > **_Question :_** Lors de la capture, la cible a fait un « ping » sur un serveur. Arrivez-vous à dire de quel serveur il s’agit ?
@@ -190,10 +192,11 @@ aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 >
 > **_Réponse :_**
 >
-> Adresse IP du serveur : ?
+> Adresse IP du serveur : 31.13.64.35
 >
-> Nom de Domaine : ?
+> Nom de Domaine : edge-star-mini-shv-01-amt2.facebook.com,
 
+![](./images/hostname.png)
 
 
 ### Exercice déchiffrement WPA 2 :
