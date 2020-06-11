@@ -1,5 +1,7 @@
 # Teaching-HEIGVD-SRX-2020-Laboratoire-WiFi
 
+Etudiants : Sacha Perdrizat & Quentin Le Ray
+
 Vous aurez besoin de ``Wireshark`` et du logiciel ``aircrack-ng`` pour ce laboratoire.
 
 Si vous utilisez une distribution Kali, tout est déjà pré-installé. Pour la version Windows du logiciel ``aircrack-ng``ou pour son installation sur d'autres distributions, référez-vous au
