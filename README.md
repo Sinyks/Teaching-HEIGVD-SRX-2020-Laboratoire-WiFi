@@ -194,7 +194,7 @@ aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 >
 > Adresse IP du serveur : 31.13.64.35
 >
-> Nom de Domaine : edge-star-mini-shv-01-amt2.facebook.com,
+> Nom de Domaine : edge-star-mini-shv-01-amt2.facebook.com (un domaine appartenant à facebook)
 
 ![](./images/hostname.png)
 
@@ -207,11 +207,14 @@ Nous avons enlevé une seule trame (choisie stratégiquement) du fichier de capt
 
 > **_Question :_** Est-ce que vous arrivez à refaire l'exercice ? Pourquoi ou pourquoi pas ?
 >
-> **_Réponse :_**
+> **_Réponse :_** Airecrack ne parvient pas à retrouver des réseaux à déchiffrer, la trame manquante dois empêcher : de reconnaître une connexion à un AP (4-way-handshake).
+
+![](./images/AireCrackFail.png)
 
 ---
 > **_Question :_** Sur la base de votre réponse précédente, arrivez-vous à déduire quelle trame a été effacée ?
 
 >
-> **_Réponse :_**
+> **_Réponse :_** La trame du 4 way Handshake qui a été effacé est la seconde, celle où le client envoie son **Nonce** avec le **MIC** (qui utilise HMAC-MD5) chiffré avec la clé KCK envoyé par l'AP pour authentifier son message, c'est ce message qui effectue l'authentification de la stations cliente.
+Sans ce message il ne nous est pas possible de retrouver la passphrase
 >
