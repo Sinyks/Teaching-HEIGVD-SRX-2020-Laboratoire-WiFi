@@ -177,7 +177,7 @@ aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 
 > **_Question :_** Combien de temps avez-vous attendu pour obtenir la passphrase WPA ?
 >
-> **_Réponse :_** UUn délai très court (2 secondes)
+> **_Réponse :_** Un délai très court (2 secondes)
 
 ---
 > **_Montrer une capture d'écran de l'obtention de la passphrase WPA_**
@@ -207,14 +207,12 @@ Nous avons enlevé une seule trame (choisie stratégiquement) du fichier de capt
 
 > **_Question :_** Est-ce que vous arrivez à refaire l'exercice ? Pourquoi ou pourquoi pas ?
 >
-> **_Réponse :_** Airecrack ne parvient pas à retrouver des réseaux à déchiffrer, la trame manquante dois empêcher : de reconnaître une connexion à un AP (4-way-handshake).
+> **_Réponse :_** Aircrack ne parvient pas à retrouver des réseaux à déchiffrer, la trame manquante dois l'empêcher de reconnaître une connexion à un AP (4-way handshake).
 
 ![](./images/AireCrackFail.png)
 
 ---
 > **_Question :_** Sur la base de votre réponse précédente, arrivez-vous à déduire quelle trame a été effacée ?
 
->
-> **_Réponse :_** La trame du 4 way Handshake qui a été effacé est la seconde, celle où le client envoie son **Nonce** avec le **MIC** (qui utilise HMAC-MD5) chiffré avec la clé KCK envoyé par l'AP pour authentifier son message, c'est ce message qui effectue l'authentification de la stations cliente.
-Sans ce message il ne nous est pas possible de retrouver la passphrase
->
+>**_Réponse :_** La trame du 4-way Handshake qui a été effacé est la seconde, celle où le client envoie son **Nonce** avec le **MIC** (qui utilise HMAC-MD5) chiffré avec la clé KCK envoyé par l'AP pour authentifier son message, c'est ce message qui effectue l'authentification de la stations cliente.
+> Sans ce message il ne nous est pas possible de retrouver la passphrase
